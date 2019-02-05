@@ -56,7 +56,7 @@ _output.csv_
 - Some Expressions are simple terminal ones that contain ints/floats/references to other cells/Expressions.
 - Other Expressions are complex and are currently limited to Binary operations.
 
-- SpreadsheetContext objects will hold all the actual data slurped from the csv.\
+- SpreadsheetContext objects will hold all the actual data slurped from the csv.
 
 - Spreadsheet cells are stored in a HashMap. The unevaluated text representation is stored as is.
 - The cells (Expressions) are evaluated on demand when required for activities such as printing.
